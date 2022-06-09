@@ -35,32 +35,22 @@ public class RitualBase {
 	/**
 	 * Called once when the center sigil is activated and canStart returns true. Keep in mind this also handles the consumption of catalyst items.
 	 */
-	public void startRitualServer(ServerLevel worldin, SigilBlockEntity tile, @Nullable Player player) {
+	public void startRitual(Level world, SigilBlockEntity tile, @Nullable Player player) {
 		circlePositions = Util.midpointCircle(tile.getBlockPos(), this.getRitualProperties().getCircleSize());
 		tile.setRitualCounter(getRitualProperties().getLength());
 
 		ElisesMagic.LOGGER.debug("Getting items");
-		for (ItemEntity e : getItemsOnSigil(worldin, tile)) {
+		for (ItemEntity e : getItemsOnSigil(world, tile)) {
 			for (Ingredient c : this.getRitualProperties().getRequirements()) {
 				ItemStack itemStack = e.getItem();
 				if (c.test(itemStack)) {
-					ElisesMagic.LOGGER.debug("Consuming item : " + itemStack.getItem());
-					itemStack.shrink(1);
-				}
-			}
-		}
-	}
-
-	public void startRitualClient(Level worldin, SigilBlockEntity tile) {
-		circlePositions = Util.midpointCircle(tile.getBlockPos(), this.getRitualProperties().getCircleSize());
-		tile.setRitualCounter(getRitualProperties().getLength());
-
-		for (ItemEntity e : getItemsOnSigil(worldin, tile)) {
-			for (Ingredient c : this.getRitualProperties().getRequirements()) {
-				ItemStack itemStack = e.getItem();
-				if (c.test(itemStack)) {
-					Vec3 p = e.position();
-					worldin.addParticle(ParticleTypes.CLOUD, p.x(), p.y() + 0.5f, p.z(), 0D, 0D, 0D);
+					if (world.isClientSide()) {
+						Vec3 p = e.position();
+						world.addParticle(ParticleTypes.CLOUD, p.x(), p.y() + 0.5f, p.z(), 0D, 0D, 0D);
+					} else {
+						ElisesMagic.LOGGER.debug("Consuming item : " + itemStack.getItem());
+						itemStack.shrink(1);
+					}
 				}
 			}
 		}

@@ -1,6 +1,5 @@
 package shiroroku.elisesmagic.Network;
 
-import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.common.util.LogicalSidedProvider;
@@ -8,7 +7,6 @@ import net.minecraftforge.fml.LogicalSide;
 import net.minecraftforge.network.NetworkEvent;
 import shiroroku.elisesmagic.Block.SigilBlockEntity;
 import shiroroku.elisesmagic.ElisesMagic;
-import shiroroku.elisesmagic.Recipe.CraftingRitualRecipe;
 import shiroroku.elisesmagic.Registry.RitualRegistry;
 import shiroroku.elisesmagic.Ritual.RitualBase;
 
@@ -35,10 +33,10 @@ public class RitualMessageHandler {
 			ElisesMagic.LOGGER.warn("Ritual context could not provide a ClientWorld.");
 			return;
 		}
-		ctx.enqueueWork(() -> processMessage((ClientLevel) clientWorld.get(), message));
+		ctx.enqueueWork(() -> processMessage(clientWorld.get(), message));
 	}
 
-	private static void processMessage(ClientLevel worldClient, RitualMessage message) {
+	private static void processMessage(Level worldClient, RitualMessage message) {
 		ElisesMagic.LOGGER.debug("Recieved Ritual update from server: {} @ {} - running : {}", message.id, message.pos, message.has_started);
 
 		BlockEntity tile = worldClient.getBlockEntity(message.pos);
@@ -48,7 +46,7 @@ public class RitualMessageHandler {
 				sigil.setRitual(ritual);
 				sigil.setRitualCounter(message.counter);
 				if (!message.has_started) {
-					ritual.startRitualClient(worldClient, sigil);
+					ritual.startRitual(worldClient, sigil, null);
 				}
 			}
 		}

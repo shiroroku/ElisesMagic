@@ -1,12 +1,11 @@
 package shiroroku.elisesmagic.Network;
 
-import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.common.util.LogicalSidedProvider;
 import net.minecraftforge.fml.LogicalSide;
 import net.minecraftforge.network.NetworkEvent;
-import shiroroku.elisesmagic.World.BlackSunHandler;
 import shiroroku.elisesmagic.ElisesMagic;
+import shiroroku.elisesmagic.World.BlackSunHandler;
 
 import java.util.Optional;
 import java.util.function.Supplier;
@@ -31,10 +30,10 @@ public class BlackSunMessageHandler {
 			ElisesMagic.LOGGER.warn("BlackSun context could not provide a ClientWorld.");
 			return;
 		}
-		ctx.enqueueWork(() -> processMessage((ClientLevel) clientWorld.get(), message));
+		ctx.enqueueWork(() -> processMessage(clientWorld.get(), message));
 	}
 
-	private static void processMessage(ClientLevel worldClient, BooleanMessage message) {
+	private static void processMessage(Level worldClient, BooleanMessage message) {
 		ElisesMagic.LOGGER.debug("Recived Black Sun update from server : {}", message.bool);
 		BlackSunHandler.blackSunEnabledClient = message.bool;
 	}

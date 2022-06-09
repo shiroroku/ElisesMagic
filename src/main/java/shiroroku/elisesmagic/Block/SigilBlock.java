@@ -24,7 +24,6 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.network.PacketDistributor;
-import org.jetbrains.annotations.Debug;
 import shiroroku.elisesmagic.ElisesMagic;
 import shiroroku.elisesmagic.Network.RitualMessage;
 import shiroroku.elisesmagic.Registry.BlockEntityRegistry;
@@ -80,7 +79,7 @@ public class SigilBlock extends BaseEntityBlock {
 				tile.setRitual(r);
 				tile.setCreator(player);
 				ElisesMagic.LOGGER.debug("Starting ritual");
-				r.startRitualServer(server, tile, player);
+				r.startRitual(server, tile, player);
 			} else {
 				ElisesMagic.LOGGER.debug("Failed to find valid ritual");
 			}
