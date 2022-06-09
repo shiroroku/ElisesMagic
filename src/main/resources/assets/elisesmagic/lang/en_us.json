@@ -1,6 +1,9 @@
 {
   "itemGroup.elisesmagic": "Elise's Magic",
   "item.elisesmagic.chalk": "Chalk",
+  "item.elisesmagic.animated_growth": "Animated Growth",
+  "item.elisesmagic.phytorage": "Phytorage",
+  "item.elisesmagic.phytorage_blade": "Phytorage Blade",
   "item.elisesmagic.magic_chalk": "Magic Chalk",
   "item.elisesmagic.magic_chalk.desc": "Radius Size : %s",
   "item.elisesmagic.arcania_essence": "Arcania Essence",

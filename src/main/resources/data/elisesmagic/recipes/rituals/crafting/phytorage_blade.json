@@ -1,0 +1,30 @@
+{
+    "type": "elisesmagic:crafting_ritual",
+    "ingredients": [
+        [
+            {
+                "item": "elisesmagic:phytorage"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:iron_sword"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:phytorage"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:iron_sword"
+            }
+        ]
+    ],
+    "output": {
+        "item": "elisesmagic:phytorage_blade"
+    },
+    "circle_radius": 5,
+    "craft_time": 400
+}

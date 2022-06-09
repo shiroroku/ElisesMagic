@@ -1,0 +1,60 @@
+{
+    "type": "elisesmagic:crafting_ritual",
+    "ingredients": [
+        [
+            {
+                "item": "elisesmagic:infernal_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:animated_growth"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:infernal_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:animated_growth"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:infernal_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:animated_growth"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:infernal_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:animated_growth"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:infernal_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:animated_growth"
+            }
+        ]
+    ],
+    "output": {
+        "item": "elisesmagic:phytorage"
+    },
+    "circle_radius": 5,
+    "craft_time": 300
+}

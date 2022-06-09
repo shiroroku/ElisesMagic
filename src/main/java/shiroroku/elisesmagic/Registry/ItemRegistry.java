@@ -6,10 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import shiroroku.elisesmagic.ElisesMagic;
-import shiroroku.elisesmagic.Item.ArcaniaBladeItem;
-import shiroroku.elisesmagic.Item.ChalkItem;
-import shiroroku.elisesmagic.Item.MirrorOfTalentItem;
-import shiroroku.elisesmagic.Item.SpellBookItem;
+import shiroroku.elisesmagic.Item.*;
 import shiroroku.elisesmagic.Item.Tarot.*;
 
 public class ItemRegistry {
@@ -26,7 +23,10 @@ public class ItemRegistry {
 	public static final RegistryObject<Item> esoteric_essence = simpleItem("esoteric_essence");
 	public static final RegistryObject<Item> arcania_gem = simpleItem("arcania_gem");
 	public static final RegistryObject<Item> esoteric_gem = simpleItem("esoteric_gem");
-	public static final RegistryObject<Item> arcania_blade = ITEMS.register("arcania_blade", () -> new ArcaniaBladeItem());
+	public static final RegistryObject<Item> arcania_blade = ITEMS.register("arcania_blade", ArcaniaBladeItem::new);
+	public static final RegistryObject<Item> phytorage_blade = ITEMS.register("phytorage_blade", PhytorageBladeItem::new);
+	public static final RegistryObject<Item> phytorage = simpleItem("phytorage");
+	public static final RegistryObject<Item> animated_growth = simpleItem("animated_growth");
 	public static final RegistryObject<Item> mirror_of_talent = ITEMS.register("mirror_of_talent", MirrorOfTalentItem::new);
 
 	public static final RegistryObject<Item> death = ITEMS.register("death", DeathTarot::new);
