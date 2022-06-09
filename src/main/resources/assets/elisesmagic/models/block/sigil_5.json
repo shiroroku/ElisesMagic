@@ -1,0 +1,6 @@
+{
+    "parent": "elisesmagic:block/sigil",
+    "textures": {
+        "texture": "elisesmagic:blocks/sigil_5"
+    }
+}

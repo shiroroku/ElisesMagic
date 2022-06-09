@@ -1,0 +1,43 @@
+{
+    "name": "1. Chalk and Circles",
+    "icon": "elisesmagic:chalk",
+    "category": "elisesmagic:rituals_101",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:chalk",
+            "text": "$(item)Chalk$() is used to draw $(thing)Sigils$() on the ground. This basic chalk has few uses, and drawing circles by hand is tedious."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "elisesmagic:chalk",
+            "text": "Once you get your chalk, you can upgrade it using a simple crafting ritual!$(br2)Please use JEI to find recipes for future crafting rituals."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:magic_chalk",
+            "text": "This first ritual infuses $(item)Arcania Essence$() into your chalk to create $(item)Magic Chalk$() which can automatically draw circles for you.$(br2)Start by drawing a sigil circle with a radius of 2, and sneaking to place a $(thing)Sigil Center$() in the middle."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "2-Radius Circle",
+            "enable_visualize": false,
+            "text": "Throw on 3 $(item)Arcania Essence$() and a $(item)Chalk$(), then click the center to begin!",
+            "multiblock": {
+                "pattern": [
+                    [ "     ", "     ", "  0  ", "     ", "     " ],
+                    [ " xxx ", "x   x", "x c x", "x   x", " xxx " ]
+                ],
+                "mapping": {
+                    "x": "elisesmagic:sigil",
+                    "c": "elisesmagic:sigil[is_center=true]"
+                },
+                "symmetrical": true
+            }
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Wait a sec while it crafts and you should soon get your $(item)Magic Chalk$()!$(br2)If it's not working, check out $(l:elisesmagic:rituals/2_troubleshooting)Troubleshooting$()."
+        }
+    ]
+}

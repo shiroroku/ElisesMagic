@@ -1,0 +1,10 @@
+{
+    "name": "Elise's Guide",
+    "version": 1,
+    "landing_text": "Full guide to Elise's Magic",
+    "book_texture": "elisesmagic:textures/gui/guide.png",
+    "model": "elisesmagic:guide_book",
+    "creative_tab": "elisesmagic",
+    "show_progress": false,
+    "nameplate_color": "f7d55c"
+}

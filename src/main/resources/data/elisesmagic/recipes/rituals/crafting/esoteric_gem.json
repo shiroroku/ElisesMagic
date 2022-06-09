@@ -1,0 +1,55 @@
+{
+    "type": "elisesmagic:crafting_ritual",
+    "ingredients": [
+        [
+            {
+                "item": "minecraft:ender_pearl"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:esoteric_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:esoteric_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:esoteric_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:esoteric_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:esoteric_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:esoteric_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:esoteric_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:esoteric_essence"
+            }
+        ]
+    ],
+    "output": {
+        "item": "elisesmagic:esoteric_gem"
+    },
+    "circle_radius": 5,
+    "craft_time": 120
+}

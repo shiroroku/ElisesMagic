@@ -1,0 +1,32 @@
+{
+    "type": "elisesmagic:loot_additions",
+    "conditions": [
+        {
+            "condition": "forge:loot_table_id",
+            "loot_table_id": "minecraft:chests/nether_bridge"
+        }
+    ],
+    "items": [
+        "elisesmagic:death",
+        "elisesmagic:judgement",
+        "elisesmagic:justice",
+        "elisesmagic:strength",
+        "elisesmagic:temperance",
+        "elisesmagic:the_chariot",
+        "elisesmagic:the_emperor",
+        "elisesmagic:the_empress",
+        "elisesmagic:the_fool",
+        "elisesmagic:the_hanged_man",
+        "elisesmagic:the_hermit",
+        "elisesmagic:the_hierophant",
+        "elisesmagic:the_high_priestess",
+        "elisesmagic:the_lovers",
+        "elisesmagic:the_magician",
+        "elisesmagic:the_moon",
+        "elisesmagic:the_star",
+        "elisesmagic:the_sun",
+        "elisesmagic:the_tower",
+        "elisesmagic:the_world",
+        "elisesmagic:wheel_of_fortune"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "type": "elisesmagic:crafting_ritual",
+    "ingredients": [
+        [
+            {
+                "item": "elisesmagic:chalk"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_essence"
+            }
+        ]
+    ],
+    "output": {
+        "item": "elisesmagic:magic_chalk"
+    },
+    "circle_radius": 2,
+    "craft_time": 60
+}

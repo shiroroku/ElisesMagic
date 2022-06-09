@@ -1,0 +1,30 @@
+{
+    "type": "elisesmagic:crafting_ritual",
+    "ingredients": [
+        [
+            {
+                "item": "elisesmagic:arcania_gem"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:golden_sword"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_gem"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:golden_sword"
+            }
+        ]
+    ],
+    "output": {
+        "item": "elisesmagic:arcania_blade"
+    },
+    "circle_radius": 3,
+    "craft_time": 240
+}

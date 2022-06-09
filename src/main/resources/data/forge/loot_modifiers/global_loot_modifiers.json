@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "entries": [
+        "elisesmagic:tarot_in_dungeons",
+        "elisesmagic:tarot_in_fortress",
+        "elisesmagic:tarot_in_shipwreck",
+        "elisesmagic:tarot_in_stronghold_library",
+        "elisesmagic:tarot_in_desert_pyramid",
+        "elisesmagic:tarot_in_mineshaft",
+        "elisesmagic:tarot_in_end_city",
+        "elisesmagic:tarot_in_village"
+    ]
+}

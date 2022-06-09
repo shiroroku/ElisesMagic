@@ -1,0 +1,84 @@
+{
+    "variants": {
+        "is_center=true": {
+            "model": "elisesmagic:block/sigil_center"
+        },
+        "is_center=false": [
+            {
+                "model": "elisesmagic:block/sigil_1"
+            },
+            {
+                "model": "elisesmagic:block/sigil_2"
+            },
+            {
+                "model": "elisesmagic:block/sigil_3"
+            },
+            {
+                "model": "elisesmagic:block/sigil_4"
+            },
+            {
+                "model": "elisesmagic:block/sigil_5"
+            },
+            {
+                "model": "elisesmagic:block/sigil_1",
+                "y": 90
+            },
+            {
+                "model": "elisesmagic:block/sigil_2",
+                "y": 90
+            },
+            {
+                "model": "elisesmagic:block/sigil_3",
+                "y": 90
+            },
+            {
+                "model": "elisesmagic:block/sigil_4",
+                "y": 90
+            },
+            {
+                "model": "elisesmagic:block/sigil_5",
+                "y": 90
+            },
+            {
+                "model": "elisesmagic:block/sigil_1",
+                "y": 180
+            },
+            {
+                "model": "elisesmagic:block/sigil_2",
+                "y": 180
+            },
+            {
+                "model": "elisesmagic:block/sigil_3",
+                "y": 180
+            },
+            {
+                "model": "elisesmagic:block/sigil_4",
+                "y": 180
+            },
+            {
+                "model": "elisesmagic:block/sigil_5",
+                "y": 180
+            },
+            {
+                "model": "elisesmagic:block/sigil_1",
+                "y": 270
+            },
+            {
+                "model": "elisesmagic:block/sigil_2",
+                "y": 270
+            },
+            {
+                "model": "elisesmagic:block/sigil_3",
+                "y": 270
+            },
+            {
+                "model": "elisesmagic:block/sigil_4",
+                "y": 270
+            },
+            {
+                "model": "elisesmagic:block/sigil_5",
+                "y": 270
+            }
+        ]
+    }
+}

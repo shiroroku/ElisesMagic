@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "shiroroku.elisesmagic.Mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "elisesmagic.refmap.json",
+  "mixins": [
+    "FoodDataMixin",
+    "LevelMixin"
+  ],
+  "client": [
+    "Client.ClientLevelMixin",
+    "Client.OverworldEffectsMixin",
+    "Client.RenderSystemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

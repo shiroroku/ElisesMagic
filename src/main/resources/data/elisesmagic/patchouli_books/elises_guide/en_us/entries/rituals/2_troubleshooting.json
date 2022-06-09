@@ -1,0 +1,15 @@
+{
+    "name": "2. Troubleshooting",
+    "icon": "elisesmagic:arcania_essence",
+    "category": "elisesmagic:rituals_101",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "You may have some issues getting your ritual to work. This is because rituals require some very specific rules to function$(br2)So here's a little checklist to go through when your rituals not working.$(br)$(l)Use JEI to make sure you're using the right items and radius.$()"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Be sure:$(li)Items are exactly on top of the Center Sigil$(li)You have the exact amount of items on the sigil, no more, no less$(li)The sigil is a perfect circle and has the required radius (use magic chalk)$(li)You are starting the ritual by activating the center sigil with a bare hand"
+        }
+    ]
+}

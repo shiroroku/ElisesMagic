@@ -1,0 +1,6 @@
+{
+    "parent": "elisesmagic:item/chalk",
+    "textures": {
+        "layer0": "elisesmagic:items/magic_chalk"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  X",
+        " X ",
+        "X  "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:bone_block"
+        }
+    },
+    "result": {
+        "item": "elisesmagic:chalk"
+    }
+}

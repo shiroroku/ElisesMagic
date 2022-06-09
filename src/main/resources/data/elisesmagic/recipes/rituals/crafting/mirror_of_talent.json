@@ -1,0 +1,40 @@
+{
+    "type": "elisesmagic:crafting_ritual",
+    "ingredients": [
+        [
+            {
+                "item": "elisesmagic:arcania_gem"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:black_stained_glass"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:iron_ingot"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:iron_ingot"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:iron_ingot"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:black_stained_glass"
+            }
+        ]
+    ],
+    "output": {
+        "item": "elisesmagic:mirror_of_talent"
+    },
+    "circle_radius": 4,
+    "craft_time": 240
+}

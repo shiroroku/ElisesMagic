@@ -1,0 +1,35 @@
+{
+    "type": "elisesmagic:crafting_ritual",
+    "ingredients": [
+        [
+            {
+                "item": "elisesmagic:arcania_gem"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:paper"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:feather"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:book"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:ink_sac"
+            }
+        ]
+    ],
+    "output": {
+        "item": "elisesmagic:spell_book_novice"
+    },
+    "circle_radius": 3,
+    "craft_time": 120
+}

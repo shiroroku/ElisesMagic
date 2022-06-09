@@ -1,0 +1,55 @@
+{
+    "type": "elisesmagic:crafting_ritual",
+    "ingredients": [
+        [
+            {
+                "item": "minecraft:lapis_lazuli"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:arcania_essence"
+            }
+        ]
+    ],
+    "output": {
+        "item": "elisesmagic:arcania_gem"
+    },
+    "circle_radius": 3,
+    "craft_time": 120
+}

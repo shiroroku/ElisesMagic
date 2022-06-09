@@ -1,0 +1,6 @@
+{
+    "parent": "elisesmagic:item/tarot",
+    "textures": {
+        "layer0": "elisesmagic:items/cards/the_devil"
+    }
+}

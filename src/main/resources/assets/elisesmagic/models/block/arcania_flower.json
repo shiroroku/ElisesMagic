@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "elisesmagic:blocks/arcania_flower"
+    }
+}

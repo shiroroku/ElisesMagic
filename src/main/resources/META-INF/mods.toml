@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT"
+[[mods]] #mandatory
+modId = "elisesmagic"
+version = "${file.jarVersion}"
+displayName = "Elise's Magic"
+#displayURL="http://example.com/"
+#logoFile="elisesmagic.png" #optional
+# A text field displayed in the mod UI
+authors = "Shiroroku(Elise)"
+description = '''
+
+'''
+[[dependencies.elisesmagic]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.elisesmagic]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,1.19)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.elisesmagic]]
+modId = "patchouli"
+mandatory = true
+versionRange = "[1.18.2-67,)"
+ordering = "AFTER"
+side = "BOTH"

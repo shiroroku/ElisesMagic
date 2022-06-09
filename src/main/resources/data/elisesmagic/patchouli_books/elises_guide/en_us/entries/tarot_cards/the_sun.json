@@ -1,0 +1,12 @@
+{
+    "name": "The Sun",
+    "icon": "elisesmagic:the_sun",
+    "category": "elisesmagic:tarot_cards",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:the_sun",
+            "text": "$(item)The Sun$() card increases your max HP when in your inventory."
+        }
+    ]
+}
