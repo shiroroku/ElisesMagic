@@ -37,7 +37,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Wait a sec while it crafts and you should soon get your $(item)Magic Chalk$()!$(br2)If it's not working, check out $(l:elisesmagic:rituals/2_troubleshooting)Troubleshooting$()."
+            "text": "Wait a second while it crafts and you should soon get your $(item)Magic Chalk$()!$(br2)If it's not working, check out $(l:elisesmagic:rituals/2_troubleshooting)Troubleshooting$()."
         }
     ]
 }

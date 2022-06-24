@@ -6,7 +6,7 @@
         {
             "type": "patchouli:spotlight",
             "item": "elisesmagic:the_sun",
-            "text": "$(item)The Sun$() card increases your max HP when in your inventory."
+            "text": "$(item)The Sun$() card increases your max HP."
         }
     ]
 }

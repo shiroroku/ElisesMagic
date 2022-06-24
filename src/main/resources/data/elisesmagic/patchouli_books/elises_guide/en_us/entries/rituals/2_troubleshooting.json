@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "You may have some issues getting your ritual to work. This is because rituals require some very specific rules to function$(br2)So here's a little checklist to go through when your rituals not working.$(br)$(l)Use JEI to make sure you're using the right items and radius.$()"
+            "text": "You may have some issues getting your ritual to work. This is because rituals require some very specific rules to function.$(br2)So here's a little checklist to go through when your rituals not working.$(br)$(l)Use JEI to make sure you're using the right items and radius.$()"
         },
         {
             "type": "patchouli:text",

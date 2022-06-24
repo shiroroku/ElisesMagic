@@ -53,35 +53,8 @@ public class Util {
 			}
 		}
 		return circle;
-		/*
-		List<BlockPos> circle = new ArrayList<>();
-		int d = 1 - radius;
-		int x = 0;
-		int z = radius;
-		int ox = origin.getX();
-		int oy = origin.getY();
-		int oz = origin.getZ();
 
-		do {
-			circle.add(new BlockPos(ox + x, oy, oz + z));
-			circle.add(new BlockPos(ox + x, oy, oz - z));
-			circle.add(new BlockPos(ox - x, oy, oz + z));
-			circle.add(new BlockPos(ox - x, oy, oz - z));
-			circle.add(new BlockPos(ox + z, oy, oz + x));
-			circle.add(new BlockPos(ox + z, oy, oz - x));
-			circle.add(new BlockPos(ox - z, oy, oz + x));
-			circle.add(new BlockPos(ox - z, oy, oz - x));
 
-			if (d < 0) {
-				d += 2 * x + 1;
-			} else {
-				//d += 2 * (x - z) + 1;
-				d += 2 * x - 2 * z + 1;
-				z--;
-			}
-			x++;
-		}while (x <= z);
-		return circle;*/
 	}
 
 	public static List<BlockPos> midpointCircleInside(BlockPos origin, int radius) {

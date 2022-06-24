@@ -5,10 +5,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import shiroroku.elisesmagic.Registry.BlockEntityRegistry;
-import shiroroku.elisesmagic.Registry.BlockRegistry;
-import shiroroku.elisesmagic.Registry.ItemRegistry;
-import shiroroku.elisesmagic.Registry.RecipeRegistry;
+import shiroroku.elisesmagic.Registry.*;
 
 @Mod(ElisesMagic.MODID)
 public class ElisesMagic {
@@ -21,6 +18,7 @@ public class ElisesMagic {
 		BlockRegistry.register();
 		BlockEntityRegistry.register();
 		RecipeRegistry.register();
+		ContainerRegistry.register();
 
 	}
 

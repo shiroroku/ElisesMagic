@@ -34,6 +34,7 @@ public class Events {
 		JusticeTarot.handleOnHurt(event);
 		TheDevilTarot.handleOnHurt(event);
 		DeathTarot.handleOnHurt(event);
+		TheTowerTarot.handleOnHurt(event);
 	}
 
 	@SubscribeEvent
@@ -41,6 +42,9 @@ public class Events {
 		TheChariotTarot.handleOnPlayerTick(event);
 		TheSunTarot.handleOnPlayerTick(event);
 		WheelOfFortuneTarot.handleOnPlayerTick(event);
+		TheMoonTarot.handleOnPlayerTick(event);
+		StrengthTarot.handleOnPlayerTick(event);
+		TheEmperorTarot.handleOnPlayerTick(event);
 	}
 
 	@SubscribeEvent

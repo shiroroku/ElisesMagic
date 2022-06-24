@@ -29,8 +29,4 @@ public class TheDevilTarot extends TarotItem {
 		}
 	}
 
-	@Override
-	public void appendHoverText(ItemStack stack, @Nullable Level world, List<Component> tooltip, TooltipFlag flag) {
-		tooltip.add(new TranslatableComponent(this.getDescriptionId() + ".desc").withStyle(ChatFormatting.BLUE));
-	}
 }

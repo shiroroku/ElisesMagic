@@ -1,0 +1,16 @@
+{
+    "name": "- Tarot Deck -",
+    "icon": "elisesmagic:tarot_deck",
+    "category": "elisesmagic:tarot_cards",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:tarot_deck",
+            "text": "$(item)Tarot Decks$() hold your cards and keeps them safe. The box itself is fireproof and will still provide all the contained card's abilities while in your inventory."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Please note: if you have more than one Tarot Deck in your inventory, only the first one will count its card's abilities. Also the deck can only hold one of each card, so you can be sure you aren't missing any of the 22 cards!"
+        }
+    ]
+}

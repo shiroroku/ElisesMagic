@@ -1,0 +1,12 @@
+{
+    "name": "Justice",
+    "icon": "elisesmagic:justice",
+    "category": "elisesmagic:tarot_cards",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:justice",
+            "text": "The $(item)Justice$() card will damage attackers for the same amount of damage they've inflicted to you."
+        }
+    ]
+}
