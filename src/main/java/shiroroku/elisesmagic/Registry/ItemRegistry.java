@@ -29,6 +29,7 @@ public class ItemRegistry {
 	public static final RegistryObject<Item> animated_growth = simpleItem("animated_growth");
 	public static final RegistryObject<Item> mirror_of_talent = ITEMS.register("mirror_of_talent", MirrorOfTalentItem::new);
 	public static final RegistryObject<Item> tarot_deck = ITEMS.register("tarot_deck", TarotDeckItem::new);
+	public static final RegistryObject<Item> chronobrand = ITEMS.register("chronobrand", ChronobrandItem::new);
 
 	public static final RegistryObject<Item> death = ITEMS.register("death", DeathTarot::new);
 	public static final RegistryObject<Item> judgement = ITEMS.register("judgement", TarotItem::new);

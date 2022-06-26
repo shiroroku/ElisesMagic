@@ -1,0 +1,50 @@
+{
+    "type": "elisesmagic:crafting_ritual",
+    "ingredients": [
+        [
+            {
+                "item": "minecraft:golden_sword"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:infernal_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:phytorage"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:infernal_essence"
+            }
+        ],
+        [
+            {
+                "item": "minecraft:clock"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:infernal_essence"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:phytorage"
+            }
+        ],
+        [
+            {
+                "item": "elisesmagic:infernal_essence"
+            }
+        ]
+    ],
+    "output": {
+        "item": "elisesmagic:chronobrand"
+    },
+    "circle_radius": 5,
+    "craft_time": 400
+}

@@ -12,6 +12,7 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import shiroroku.elisesmagic.Command.ToggleBlackSunCommand;
 import shiroroku.elisesmagic.Item.ArcaniaBladeItem;
+import shiroroku.elisesmagic.Item.ChronobrandItem;
 import shiroroku.elisesmagic.Item.Tarot.*;
 import shiroroku.elisesmagic.World.BlackSunHandler;
 import shiroroku.elisesmagic.World.FlowerGeneration;
@@ -45,6 +46,7 @@ public class Events {
 		TheMoonTarot.handleOnPlayerTick(event);
 		StrengthTarot.handleOnPlayerTick(event);
 		TheEmperorTarot.handleOnPlayerTick(event);
+		ChronobrandItem.handleOnPlayerTick(event);
 	}
 
 	@SubscribeEvent
@@ -63,5 +65,6 @@ public class Events {
 	@SubscribeEvent
 	public static void onItemAttributeEvent(ItemAttributeModifierEvent event){
 		ArcaniaBladeItem.handleItemAttribute(event);
+		ChronobrandItem.handleItemAttribute(event);
 	}
 }
