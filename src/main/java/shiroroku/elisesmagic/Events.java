@@ -47,6 +47,8 @@ public class Events {
 		StrengthTarot.handleOnPlayerTick(event);
 		TheEmperorTarot.handleOnPlayerTick(event);
 		ChronobrandItem.handleOnPlayerTick(event);
+		TheHermitTarot.handleOnPlayerTick(event);
+		TheLoversTarot.handleOnPlayerTick(event);
 	}
 
 	@SubscribeEvent

@@ -1,0 +1,12 @@
+{
+    "name": "Wheel Of Fortune",
+    "icon": "elisesmagic:wheel_of_fortune",
+    "category": "elisesmagic:tarot_cards",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:wheel_of_fortune",
+            "text": "$(item)Wheel Of Fortune$() increases the holders luck."
+        }
+    ]
+}

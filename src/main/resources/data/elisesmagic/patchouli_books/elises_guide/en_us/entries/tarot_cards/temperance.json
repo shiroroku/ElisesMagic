@@ -1,0 +1,12 @@
+{
+    "name": "Temperance",
+    "icon": "elisesmagic:temperance",
+    "category": "elisesmagic:tarot_cards",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:temperance",
+            "text": "$(item)Temperance$() reduces hunger buildup."
+        }
+    ]
+}

@@ -14,7 +14,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.spongepowered.mixin'
 
 group = 'shiroroku'
-version = '0.1.0'
+version = '0.1.1'
 
 java {
     archivesBaseName = 'elisesmagic'

@@ -42,10 +42,10 @@ public class ItemRegistry {
 	public static final RegistryObject<Item> the_empress = ITEMS.register("the_empress", TarotItem::new);
 	public static final RegistryObject<Item> the_fool = ITEMS.register("the_fool", TarotItem::new);
 	public static final RegistryObject<Item> the_hanged_man = ITEMS.register("the_hanged_man", TarotItem::new);
-	public static final RegistryObject<Item> the_hermit = ITEMS.register("the_hermit", TarotItem::new);
+	public static final RegistryObject<Item> the_hermit = ITEMS.register("the_hermit", TheHermitTarot::new);
 	public static final RegistryObject<Item> the_hierophant = ITEMS.register("the_hierophant", HierophantTarot::new);
 	public static final RegistryObject<Item> the_high_priestess = ITEMS.register("the_high_priestess", TarotItem::new);
-	public static final RegistryObject<Item> the_lovers = ITEMS.register("the_lovers", TarotItem::new);
+	public static final RegistryObject<Item> the_lovers = ITEMS.register("the_lovers", TheLoversTarot::new);
 	public static final RegistryObject<Item> the_magician = ITEMS.register("the_magician", TarotItem::new);
 	public static final RegistryObject<Item> the_moon = ITEMS.register("the_moon", TheMoonTarot::new);
 	public static final RegistryObject<Item> the_star = ITEMS.register("the_star", TarotItem::new);

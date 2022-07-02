@@ -1,0 +1,12 @@
+{
+    "name": "The Moon",
+    "icon": "elisesmagic:the_moon",
+    "category": "elisesmagic:tarot_cards",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:the_moon",
+            "text": "$(item)The Moon$() gives the holder night vision."
+        }
+    ]
+}

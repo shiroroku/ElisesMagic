@@ -1,0 +1,12 @@
+{
+    "name": "The Hierophant",
+    "icon": "elisesmagic:the_hierophant",
+    "category": "elisesmagic:tarot_cards",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:the_hierophant",
+            "text": "$(item)The Hierophant$() increased the amount of experience gained when picking up xp orbs."
+        }
+    ]
+}

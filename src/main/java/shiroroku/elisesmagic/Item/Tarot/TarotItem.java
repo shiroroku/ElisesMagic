@@ -5,6 +5,11 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.core.NonNullList;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.stats.Stats;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.player.Inventory;
@@ -32,6 +37,9 @@ public class TarotItem extends Item {
 	}
 
 	public static boolean hasTarot(Player player, Item tarot) {
+		if(player == null){
+			return false;
+		}
 		Inventory pInv = player.getInventory();
 		if (pInv.contains(new ItemStack(ItemRegistry.tarot_deck.get()))) {
 			ItemStack deck = null;

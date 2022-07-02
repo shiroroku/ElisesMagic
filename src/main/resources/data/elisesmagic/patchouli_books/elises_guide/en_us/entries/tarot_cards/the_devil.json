@@ -1,0 +1,12 @@
+{
+    "name": "The Devil",
+    "icon": "elisesmagic:the_devil",
+    "category": "elisesmagic:tarot_cards",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:the_devil",
+            "text": "The $(item)Devil$() card inflicts weakness on the enemy."
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "The Chariot",
+    "icon": "elisesmagic:the_chariot",
+    "category": "elisesmagic:tarot_cards",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:the_chariot",
+            "text": "$(item)The Chariot$() card increases the holders movement speed."
+        }
+    ]
+}

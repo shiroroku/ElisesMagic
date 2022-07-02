@@ -1,0 +1,12 @@
+{
+    "name": "The Emperor",
+    "icon": "elisesmagic:the_emperor",
+    "category": "elisesmagic:tarot_cards",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:the_emperor",
+            "text": "$(item)The Emperor$() gives the holder Hero of the Village. Reducing villager trade costs."
+        }
+    ]
+}

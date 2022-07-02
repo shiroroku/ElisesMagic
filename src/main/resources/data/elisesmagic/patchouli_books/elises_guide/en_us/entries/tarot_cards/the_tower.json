@@ -1,0 +1,12 @@
+{
+    "name": "The Tower",
+    "icon": "elisesmagic:the_tower",
+    "category": "elisesmagic:tarot_cards",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "elisesmagic:the_tower",
+            "text": "$(item)The Tower$() makes the holder immune to fall damage."
+        }
+    ]
+}
